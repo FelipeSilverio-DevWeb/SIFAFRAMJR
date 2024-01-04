@@ -1,0 +1,43 @@
+@media (max-width: 1000px) {
+  #main_card_story {
+    width: 100%;
+  }
+  #main_card_story #card_logo {
+    display: none;
+  }
+  #main_card_story #card_story {
+    width: 100% !important;
+  }
+  #main_card_story #card_story p {
+    width: 100%;
+  }
+  #main_card_contact #main_card_contact_img {
+    display: none;
+  }
+  #main_card_contact #main_card_contact_form {
+    width: 100% !important;
+  }
+  #main_card_contact #main_card_contact_form form button {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #header_link {
+    display: none !important;
+  }
+  #card_mission {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #card_mission div {
+    width: 80% !important;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px 1px rgb(216, 216, 216) !important;
+  }
+  #card_mission div:first-child {
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
